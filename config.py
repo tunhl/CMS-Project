@@ -6,7 +6,7 @@ class Config(object):
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'secret-key'
 
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'tunhlstorageaccount'
-    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'b3nl5XT+S5yxqVXGpr+VSeMV/IsacpdXC+RbffV+Xc8bNMz1Bhk26iTuP4Py3BNSSKWQr1PIbosT+AStkvwYHg=='
+    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'sKdS9H+91G0wg5SqH8sr/0zuQrGIg7bp5G/Zy+Nw6Q+6B5haryoJrf3Onv1z38+DRW07vTrNNZ3L+ASte76dWA=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
 
     SQL_SERVER = os.environ.get('SQL_SERVER') or 'tunhl-sqlserver.database.windows.net'
