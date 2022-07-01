@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'CMS-app-tunhl'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F8C8C3858BCA464389A3C89CA8A9FAA6 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9C79E98B791942FAB60E9FE293AEBB35 }}
